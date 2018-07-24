@@ -8,10 +8,14 @@ val otherModules = applicationContext {
 
 }
 
+
+
 val rxModule = applicationContext {
     bean {
         ApplicationSchedulerProvider() as SchedulerProvider
     }
+
+
 }
 
 //Gather all app Modules
