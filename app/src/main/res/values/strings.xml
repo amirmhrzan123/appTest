@@ -1,3 +1,188 @@
 <resources>
-    <string name="app_name">appTest</string>
+    <string name="app_name">rangerX</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="assembly_bank_token">Basic ZWJwZWFybHMubW9iaWxlYXBwQGdtYWlsLmNvbTpabUkwWmpNek5HVTNNekE0WkRrMk5XVmxNV1ExTkdNMU9EYzVZekF6WmpJPQ==</string>
+
+    <!--Fonts-->
+    <string name="font_source_san_pro_regular">fonts/source-sans-pro/SourceSansPro-Regular.ttf</string>
+    <string name="font_source_san_pro_light">fonts/source-sans-pro/SourceSansPro-Light.ttf</string>
+    <string name="font_source_san_pro_semi_bold">fonts/source-sans-pro/SourceSansPro-SemiBold.ttf</string>
+    <string name="font_source_san_pro_bold">fonts/source-sans-pro/SourceSansPro-Bold.ttf</string>
+    <string name="font_source_san_pro_italic">fonts/source-sans-pro/SourceSansPro-Italic.ttf</string>
+
+
+    <!--Titles-->
+    <string name="title_register">Register</string>
+    <string name="title_login">Login</string>
+    <string name="title_contact_number">Contact Number</string>
+    <string name="title_terms_and_conditions">Terms and Conditions</string>
+    <string name="title_privacy_policy">@string/settings_privacy_policy</string>
+    <string name="title_forgot_password">Forgot Password</string>
+    <string name="title_set_up_account_step_1">Set Up Your Account: Step 1</string>
+    <string name="title_set_up_account_step_2">Set Up Your Account: Step 2</string>
+    <string name="title_set_up_account_step_3">Set Up Your Account: Step 3</string>
+    <string name="title_edit_contact_number">Edit Contact Number</string>
+    <string name="title_my_account">My Account</string>
+    <string name="title_my_profile">My Profile</string>
+    <string name="title_bank_details">Bank Details</string>
+    <string name="title_change_password">Change Password</string>
+    <string name="title_home">@string/nav_home</string>
+    <string name="title_complete_infringement">Complete Infringement</string>
+    <string name="title_infringement">Infringement</string>
+    <string name="title_track_infringements">Track Infringements</string>
+    <string name="title_my_wallet">@string/nav_my_wallet</string>
+    <string name="title_contact_verification">Contact Verification</string>
+    <string name="title_notifications">@string/nav_notifications</string>
+    <string name="title_parking_monitor">@string/nav_parking_monitor</string>
+
+    <!--Hints-->
+    <string name="hint_empty_text"> </string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_password_register">6&#8211;18 characters</string>
+    <string name="hint_email_address">email@example.com</string>
+    <string name="hint_sms_verification_code">SMS verification code</string>
+    <string name="hint_optional">Optional</string>
+    <string name="hint_enter_your_address">Enter your address</string>
+    <string name="hint_select_location_council">Select Local Council</string>
+
+
+    <!--Text in buttons -->
+    <string name="tv_sign_in">Sign In</string>
+    <string name="tv_register">Register</string>
+    <string name="tv_done">Done</string>
+    <string name="tv_forgot_your_password"><u>Forgot your password?</u></string>
+    <string name="tv_ok">OK</string>
+    <string name="tv_resend">Resend</string>
+    <string name="tv_cancel">Cancel</string>
+    <string name="tv_crop">Crop</string>
+    <string name="tv_submit">Submit</string>
+    <string name="tv_edit">Edit</string>
+    <string name="tv_next">Next</string>
+    <string name="tv_resend_verification_in">Resend verification in</string>
+    <string name="tv_resend_verification_code">Resend Verification Code</string>
+    <string name="tv_request_code">Request Code</string>
+    <string name="tv_upload_photo"><u>Upload Photo</u></string>
+    <string name="tv_proceed_to_identity_verification">Proceed to Identity Verification</string>
+    <string name="tv_complete_setup">Complete Setup</string>
+    <string name="tv_my_account"><u>My Account</u></string>
+    <string name="tv_change_image">Change Image</string>
+    <string name="tv_change_password">Change Password</string>
+    <string name="tv_capture_infringement">Capture \nInfringement</string>
+    <string name="tv_track_infringements">Track Infringements</string>
+    <string name="tv_parking_monitor">Parking Monitor</string>
+    <string name="tv_over_limit">Over Limit</string>
+    <string name="tv_almost_over">Almost Over</string>
+    <string name="tv_captured">Captured</string>
+    <string name="tv_confirm_and_submit">Confirm &amp; Submit</string>
+    <string name="tv_parking_hours">%s hours</string>
+    <string name="tv_location_infringement">Location: %s</string>
+    <string name="tv_load_more"><u>Load more</u></string>
+    <string name="tv_edit_monthly_revenue_goal"><u>edit monthly revenue goal</u></string>
+    <string name="tv_year_to_date_from">year to-date from %s</string>
+    <string name="tv_amount">$%s</string>
+
+
+    <!--Labels-->
+    <string name="tv_lbl_first_name">First Name</string>
+    <string name="tv_lbl_first_name_comp">First Name *</string>
+    <string name="tv_lbl_middle_name">Middle Name</string>
+    <string name="tv_lbl_last_name">Last Name</string>
+    <string name="tv_lbl_last_name_comp">Last Name *</string>
+    <string name="tv_lbl_dob">Date of Birth</string>
+    <string name="tv_lbl_dob_comp">Date of Birth *</string>
+    <string name="tv_lbl_email_address">Email Address</string>
+    <string name="tv_lbl_email_address_comp">Email Address *</string>
+    <string name="tv_lbl_contact_number">Contact Number *</string>
+    <string name="tv_lbl_password">Password *</string>
+    <string name="tv_lbl_current_password">Current Password *</string>
+    <string name="tv_lbl_new_password">New Password *</string>
+    <string name="tv_lbl_confirm_password">Confirm Password *</string>
+    <string name="tv_lbl_terms_and_conditions">By registering, you are agreeing to the \n Terms &amp; conditions</string>
+    <string name="tv_lbl_confirm_country_and_contact_number">Please confirm your country and mobile number.</string>
+    <string name="tv_lbl_country">Country</string>
+    <string name="tv_lbl_country_code">+61</string>
+    <string name="tv_lbl_forgot_password">Enter the email you registered with:</string>
+    <string name="tv_lbl_confirmed_number">Confirmed Number</string>
+    <string name="tv_lbl_confirmed_number_info">This is the first time you\'re logging in. Please enter a SMS verification code to confirm your login.</string>
+    <string name="tv_lbl_confirm_your_contact_number">Please confirm your contact number.</string>
+    <string name="tv_lbl_new_contact_number">New contact number *</string>
+    <string name="tv_lbl_abn">ABN</string>
+    <string name="tv_lbl_abn_comp">ABN *</string>
+    <string name="tv_lbl_dnt_have_abn">Don\'t have an ABN? Get it now</string>
+    <string name="tv_lbl_identity_verification">Identity Verification</string>
+    <string name="tv_lbl_medicare_verification">Medicare Verification</string>
+    <string name="tv_lbl_licence_verification">Licence Verification</string>
+    <string name="tv_lbl_passport_verification">Passport Verification</string>
+    <string name="tv_lbl_select_verification_type">Select Verification Type</string>
+    <string name="tv_lbl_bank_details_info">So you can get paid for your infringement captures.
+    Please provide your payment details below:</string>
+    <string name="tv_lbl_identity_verification_info">I confirm that I am authorized to provide the personal details presented and
+        I consent to my information being checked with the document issuer or official record holder via third party system for the purpose of confirming my identity.</string>
+    <string name="tv_lbl_bsb">BSB *</string>
+    <string name="tv_lbl_account_number">Account Number *</string>
+    <string name="tv_lbl_account_name">Account Name *</string>
+    <string name="tv_lbl_bank_name">Bank Name *</string>
+    <string name="tv_lbl_holder_type">Holder Type *</string>
+    <string name="tv_lbl_account_type">Account Type *</string>
+    <string name="tv_lbl_change_password"><u>Change Password</u></string>
+    <string name="tv_lbl_card_type">Card Type *</string>
+    <string name="tv_lbl_card_expiry">Card Expiry *</string>
+    <string name="tv_lbl_card_number">Card Number *</string>
+    <string name="tv_lbl_full_name_1">Full Name 1 *</string>
+    <string name="tv_lbl_full_name_2">Full Name 2</string>
+    <string name="tv_lbl_full_name_3">Full Name 3</string>
+    <string name="tv_lbl_full_name_4">Full Name 4</string>
+    <string name="tv_lbl_individual_reference_number">Individual Reference Number *</string>
+    <string name="tv_lbl_licence_number_comp">Licence Number *</string>
+    <string name="tv_lbl_state_of_issue_comp">State Of Issue *</string>
+    <string name="tv_lbl_gender_comp">Gender *</string>
+    <string name="tv_lbl_travel_document_number">Travel Document Number *</string>
+    <string name="tv_lbl_infringement">Infringement</string>
+    <string name="tv_lbl_infringement_comp">Infringement *</string>
+    <string name="tv_lbl_photos">Photos</string>
+    <string name="tv_lbl_photos_comp">Photos *</string>
+    <string name="tv_lbl_before_photos">Before</string>
+    <string name="tv_lbl_after_photos">After</string>
+    <string name="tv_lbl_parking_limit_length">Parking Limit Length</string>
+    <string name="tv_lbl_parking_limit_length_comp">Parking Limit Length *</string>
+    <string name="tv_lbl_hours">hours</string>
+    <string name="tv_lbl_time_of_infringement">Time of Infringement</string>
+    <string name="tv_lbl_location_of_infringement">Location of Infringement</string>
+    <string name="tv_lbl_location_of_infringement_comp">Location of Infringement *</string>
+    <string name="tv_lbl_car_license_plate">Car License Plate</string>
+    <string name="tv_lbl_car_license_plate_comp">Car License Plate *</string>
+    <string name="tv_lbl_local_council">Local Council (if applicable)</string>
+    <string name="tv_lbl_capture_more_photos"><u>Capture more photos (max.6)</u></string>
+    <string name="tv_lbl_use_current_location"><u>Use Current Location</u></string>
+    <string name="tv_lbl_status">Status:</string>
+    <string name="tv_lbl_deposit_status">Deposit status:</string>
+    <string name="tv_lbl_earning_this_month">Earning this month</string>
+    <string name="tv_lbl_yearly_revenue">Yearly Revenue</string>
+    <string name="tv_lbl_infringement_status">INFRINGEMENT STATUS</string>
+    <string name="tv_lbl_day">Day</string>
+    <string name="tv_lbl_month">Month</string>
+    <string name="tv_lbl_year">Year</string>
+    <string name="tv_lbl_earnings">Earnings</string>
+    <string name="tv_lbl_goal">Goal</string>
+    <string name="tv_lbl_set_monthly_revenue_goal">Set Monthly Revenue Goal</string>
+    <string name="tv_lbl_set_monthly_revenue_goal_message">Set your earning goal for %s and keep track of your progress on RangerX.</string>
+
+    <!--Nav-->
+    <string name="nav_home">Home</string>
+    <string name="nav_capture_infringements">Capture Infringements</string>
+    <string name="nav_track_infringements">Track Infringements</string>
+    <string name="nav_parking_monitor">Parking Monitor</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_my_wallet">My Wallet</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="settings_terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="settings_privacy_policy">Privacy Policy</string>
+    <string name="settings_leave_feedback">Leave Feedback</string>
+    <string name="settings_share_app">Share App</string>
+    <string name="settings_log_out">Logout</string>
+    <string name="msg_loading">Loading</string>
+
 </resources>

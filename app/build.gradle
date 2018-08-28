@@ -17,6 +17,11 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         multiDexEnabled = true
     }
+
+    dataBinding {
+        enabled = true
+    }
+
     buildTypes {
         debug {
             minifyEnabled false
@@ -32,10 +37,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
+
 }
 
 dependencies {
@@ -45,7 +47,6 @@ dependencies {
     def firebase_database_version = '16.0.1'
     def firebase_messaging_version = '17.0.0'
     def constraint_layout_version = '1.1.0'
-    def dagger_version = '2.15'
     def timber_version = '4.6.1'
     def stetho_version = '1.5.0'
     def calligraphy_version = '2.3.0'
@@ -61,16 +62,13 @@ dependencies {
     def glide_version = "4.4.0"
     def image_cropper_version = "2.7.+"
     def facebook_sdk_version = "4.32.0"
-    def stripe_sdk_version = "6.1.2"
-    def mapbox_sdk_version = "6.1.1"
     def circle_imageview_version = "2.2.0"
     def multidex_version = "1.0.3"
     def swipe_back_version = "1.0.2"
-    def anim_checkBox_version = "1.0.1"
     def data_binding_version = "2.3.1"
     def firebase_analytics_version = "16.0.1"
     def view_pager_indicator_version = "1.0.1"
-    def koin_version = '0.9.3'
+    def koin_version = '1.0.0-beta-6'
     def room_version = '1.1.0'
 
     implementation fileTree(include: ['*.jar'], dir: 'libs')
@@ -105,11 +103,6 @@ dependencies {
     implementation "com.jakewharton.retrofit:retrofit2-rxjava2-adapter:$retrofit_rx_adapter_version"
     implementation 'com.jakewharton.rxbinding:rxbinding:0.4.0'
 
-    // DI dependencies
-    implementation "com.google.dagger:dagger:$dagger_version"
-    implementation "com.google.dagger:dagger-android-support:$dagger_version"
-    kapt "com.google.dagger:dagger-compiler:$dagger_version"
-    kapt "com.google.dagger:dagger-android-processor:$dagger_version"
 
     // Network dependencies
     implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
@@ -155,8 +148,10 @@ dependencies {
 
     // Koin DI
     implementation "org.koin:koin-core:$koin_version"
-    // Koin for Android Architecture Components
-    implementation "org.koin:koin-android-architecture:$koin_version"
+    // or Koin for Lifecycle scoping
+    implementation "org.koin:koin-android-scope:$koin_version"
+    // or Koin for Android Architecture ViewModel
+    implementation "org.koin:koin-android-viewmodel:$koin_version"
 
     //room database
     implementation "android.arch.persistence.room:runtime:$room_version"
